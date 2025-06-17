@@ -7,9 +7,9 @@ html,body{
     margin: 0;
     font-family: Roboto;
     --color-primary-white:rgb(252, 252, 252);
-    --color-primary-blue:rgb(9, 100, 255);
+    --color-primary-blue:rgb(40, 152, 220);
     --color-secondary-blue:rgb(71, 192, 240);
-    --color-secondary-white:rgb(248, 248, 248);
+    --color-secondary-white:rgb(233, 233, 233);
 
 }
 .icon{
@@ -19,7 +19,7 @@ html,body{
 .container{
     display: grid;
     grid-template-columns: 1fr 4fr;
-    grid-template-rows: 1fr 3fr;
+    grid-template-rows: 1fr 4fr;
     
 }
 header{
@@ -104,4 +104,8 @@ sidebar div{
 }
 .dashboard-items1, .dashboard-items2{
     gap: 10px;
+}
+
+main{
+    background-color: var(--color-secondary-white);
 }
