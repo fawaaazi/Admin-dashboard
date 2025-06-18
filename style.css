@@ -114,7 +114,7 @@ main{
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 1fr 1fr;
-    
+    padding-right: 30px;
 }
 .project-card{
     grid-column: 1 / 2;
@@ -161,5 +161,26 @@ main p{
     background-color: var(--color-primary-white);
     border-radius: 8px;
     box-shadow: var(--box-shadow-dark);
+    padding: 15px;
 }
-
+.announcement-card{
+    border-bottom: 1px black groove;
+    padding: 10px;
+}
+.trending-section{
+    display: grid;
+    background-color: var(--color-primary-white);
+    border-radius: 8px;
+    box-shadow: var(--box-shadow-dark);
+    padding: 15px;
+}
+.trending-card{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px;
+}
+.trending-card h3, p{
+    padding: 0;
+}
